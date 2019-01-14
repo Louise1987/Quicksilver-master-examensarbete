@@ -4,7 +4,7 @@
 set cms_db=Quicksilver.Cms
 set commerce_db=Quicksilver.Commerce
 set user=Louise
-set password=password1234
+set password=Password1234!
 
 :: Determine package folders
 for /F " tokens=*" %%i in ('dir "..\Packages\EPiServer.CMS.Core*" /b /o:d') do (set cms_core=%%i) 
