@@ -24,6 +24,8 @@ namespace EPiServer.Reference.Commerce.Site.Features.Search.Controllers
             return View(model);
         }
 
+
+
         [ChildActionOnly]
         public ActionResult Facet(FashionNode currentContent, FilterOptionViewModel viewModel)
         {
